@@ -10,9 +10,9 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.devsuperior</groupId>
-	<artifactId>myfirstproject</artifactId>
+	<artifactId>aulao-springboot-junit</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>myfirstproject</name>
+	<name>aulao-springboot-junit</name>
 	<description>My first project for Spring Boot</description>
 
 	<properties>
