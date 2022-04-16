@@ -39,4 +39,4 @@ jobs:
         env:
           HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
           HEROKU_APP_NAME: github-actions-example1
-        run: heroku plugins:install java && heroku create --no-remote && heroku deploy:jar target/aulao-springboot-junit-0.0.1-SNAPSHOT.jar --app github-actions-example1
+        run: heroku plugins:install java && heroku create --no-remote && heroku deploy:jar out/artifacts/aulao_springboot_junit_jar/aulao-springboot-junit.jar --app github-actions-example1
