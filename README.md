@@ -4,6 +4,11 @@ Status do CI -  ![GitHub Workflow Status](https://img.shields.io/github/workflow
 
 Ci e CD servidor da Heroku.
 
-Caso opte tem o dockerfile so mandar rodar no console 
+Gerar imagem docker e rodar 
 
-docker build -t demo .
+$docker build -t demo . 
+
+$docker run --publish 8080:8080 demo 
+
+
+        
